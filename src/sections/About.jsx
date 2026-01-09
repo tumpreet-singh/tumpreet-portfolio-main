@@ -46,14 +46,37 @@ export default function About() {
             real-world workflows.
           </p>
 
-          {/* Education */}
-          <div className="mt-6">
-            <h3 className="font-semibold text-lg">Education</h3>
-            <p className="mt-2 text-neutral-600 dark:text-neutral-400">
-              Master of Computer Applications (MCA) <br />
-              Punjab Agricultural University (2024 – 2027)
-            </p>
-          </div>
+         {/* Education */}
+        <div className="mt-6">
+        <h3 className="font-semibold text-lg">Education</h3>
+
+            <div className="mt-4 flex gap-4 items-start">
+                <img
+                src="/images/pau-logo.png"
+                alt="Punjab Agricultural University"
+                className="w-10 h-10 object-contain"
+                />
+                <p className="text-neutral-600 dark:text-neutral-400">
+                <strong>Master of Computer Applications (MCA)</strong><br />
+                Punjab Agricultural University <br />
+                2025 – 2027
+                </p>
+            </div>
+
+            <div className="mt-4 flex gap-4 items-start">
+                <img
+                src="/images/gndec-logo.png"
+                alt="GNDEC"
+                className="w-10 h-10 object-contain"
+                />
+                <p className="text-neutral-600 dark:text-neutral-400">
+                <strong>Bachelor of Computer Applications (BCA)</strong><br />
+                Guru Nanak Dev Engineering College <br />
+                2021 – 2024
+                </p>
+            </div>
+            </div>
+
 
           {/* Interests */}
           <div className="mt-6">

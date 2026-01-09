@@ -5,3 +5,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+a {
+  transition: transform 0.15s ease;
+}
+
+a:hover {
+  transform: translateY(-1px);
+}

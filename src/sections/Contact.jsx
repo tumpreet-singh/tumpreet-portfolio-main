@@ -7,14 +7,14 @@ export default function Contact() {
         <h2 className="text-3xl font-bold">Contact</h2>
 
         <p className="mt-4 text-neutral-600 dark:text-neutral-400">
-          Have a project, opportunity, or idea? Let’s connect.
+          Have a project, opportunity, or idea? Let’s connect email me directly at stumpreet@gmail.com.
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           
           {/* Email */}
           <a
-            href="mailto:your.email@gmail.com"
+            href="mailto:stumpreet@gmail.com"
             className="flex items-center gap-2 px-5 py-3 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition"
           >
             <Mail size={18} />
@@ -23,7 +23,7 @@ export default function Contact() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/tumpreet-singh"
             target="_blank"
             className="flex items-center gap-2 px-5 py-3 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition"
           >
@@ -33,7 +33,7 @@ export default function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/tumpreet-singh-40581624b"
             target="_blank"
             className="flex items-center gap-2 px-5 py-3 rounded-md border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition"
           >

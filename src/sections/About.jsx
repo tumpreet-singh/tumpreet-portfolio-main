@@ -37,7 +37,7 @@ export default function About() {
           <p className="mt-4 text-neutral-600 dark:text-neutral-400">
             I’m a backend-focused full stack developer who enjoys building
             secure, scalable, and production-ready web applications.
-            I learn by building real things — not just tutorials.
+            I learn by building real things.
           </p>
 
           <p className="mt-4 text-neutral-600 dark:text-neutral-400">
@@ -51,11 +51,13 @@ export default function About() {
         <h3 className="font-semibold text-lg">Education</h3>
 
             <div className="mt-4 flex gap-4 items-start">
-                <img
+            <div className="w-12 h-12 rounded-full overflow-hidden border border-neutral-300 dark:border-neutral-700 flex items-center justify-center bg-neutral-100 dark:bg-neutral-900">
+            <img
                 src="/images/pau-logo.png"
                 alt="Punjab Agricultural University"
-                className="w-10 h-10 object-contain"
-                />
+                className="w-full h-full object-contain scale-15"
+            />
+            </div>
                 <p className="text-neutral-600 dark:text-neutral-400">
                 <strong>Master of Computer Applications (MCA)</strong><br />
                 Punjab Agricultural University <br />
@@ -64,15 +66,19 @@ export default function About() {
             </div>
 
             <div className="mt-4 flex gap-4 items-start">
+                <div className="w-12 h-12 rounded-full overflow-hidden border border-neutral-300 dark:border-neutral-700 flex items-center justify-center bg-neutral-100 dark:bg-neutral-900">
                 <img
-                src="/images/gndec-logo.png"
-                alt="GNDEC"
-                className="w-10 h-10 object-contain"
+                    src="/images/gndec-logo.png"
+                    alt="Guru Nanak Dev Engineering College"
+                    className="w-full h-full object-contain scale-125"
                 />
+                </div>
+
+
                 <p className="text-neutral-600 dark:text-neutral-400">
                 <strong>Bachelor of Computer Applications (BCA)</strong><br />
                 Guru Nanak Dev Engineering College <br />
-                2021 – 2024
+                2022 – 2025
                 </p>
             </div>
             </div>
@@ -97,7 +103,7 @@ export default function About() {
           {/* Social Links */}
           <div className="mt-6 flex gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/tumpreet-singh"
               target="_blank"
               className="hover:opacity-70"
             >

@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 rounded-full overflow-hidden border border-neutral-300 dark:border-neutral-700 flex items-center justify-center">
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               alt="Tumpreet"
               onError={(e) => (e.currentTarget.style.display = "none")}
               className="w-full h-full object-cover"

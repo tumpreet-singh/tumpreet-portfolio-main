@@ -16,7 +16,7 @@ export default function About() {
           <div className="w-40 h-40 rounded-full overflow-hidden border border-neutral-300 dark:border-neutral-700 flex items-center justify-center bg-neutral-100 dark:bg-neutral-900">
             {/* If image exists, it will load. Otherwise icon shows */}
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               alt="Tumpreet Singh"
               onError={(e) => (e.currentTarget.style.display = "none")}
               className="w-full h-full object-cover"

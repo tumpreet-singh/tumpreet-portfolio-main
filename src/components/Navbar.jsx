@@ -18,15 +18,7 @@ export default function Navbar() {
 
         {/* LEFT: Profile + Animated Name */}
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full overflow-hidden border border-neutral-300 dark:border-neutral-700 flex items-center justify-center">
-            <img
-              src="/images/profile.jpeg"
-              alt="Tumpreet"
-              onError={(e) => (e.currentTarget.style.display = "none")}
-              className="w-full h-full object-cover"
-            />
-            <User className="w-5 h-5 text-neutral-400" />
-          </div>
+          
 
           {/* Animated Name */}
           <AnimatePresence>
